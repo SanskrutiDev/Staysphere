@@ -1,0 +1,186 @@
+ body{
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   color: white !important;
+   background-color: black !important;
+}
+
+
+
+.container{
+    flex: 1;
+}
+/* navbar */
+.navbar {
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+
+}
+.bi-luggage-fill {
+    color:#00BFFF;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #fffdfd !important;
+}
+/* footer */
+.f-info-links a{
+text-decoration: none;
+color: #fffdfd ;
+
+}
+.f-info-links a:hover{
+   text-decoration: underline;
+}
+.f-info-links,
+.f-info-socials,
+.f-info-brand{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+   
+
+.f-info {
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    color: white;
+    background-color: #474646;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+/* cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+    color: white !important;
+    background-color: rgb(0, 0, 0) !important;
+    
+}
+
+
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    box-shadow: 10px 10px 20px rgba(192, 192, 192, 0.4); /* Right and bottom shadow with more intensity */
+    /* height: 100% !important; */
+}
+
+.card-body {
+    padding: 0 !important;
+   
+}
+.card-text p{
+font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+/*card effect */
+.card-img-overlay{
+    opacity: 0;
+    
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: rgb(6, 6, 6);
+}
+/* new page */
+.add-btn{
+    background-color: #00BFFF !important;
+    border: none !important;
+}
+
+/*edit pages */
+
+.edit-btn{
+    background-color:#00BFFF!important;
+    border: none !important;
+
+}
+/* new */
+.new {
+    color: white !important;
+    background-color: rgb(0, 0, 0) !important;
+    
+}
+
+.new::placeholder {
+    color: rgb(151, 150, 150) !important; 
+    opacity: 1 !important;  
+    
+}
+.bl {
+    color: #fffdfd !important;
+    background-color: #000000 !important;
+    border-radius: 15px !important;
+    border: 2px solid #00BFFF !important;
+    
+}
+
+
+
+
+/*show page */
+.show-image{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.comments-box {
+    color: white !important; /* Ensures text is white */
+    background-color: rgb(0, 0, 0) !important; /* Full black background */
+    
+}
+
+.commentcard{
+    color: white !important;
+    background-color: rgb(0, 0, 0) !important;
+    border-radius: 2px;
+}
+
+.comment {
+    color: white !important;
+    background-color: rgb(0, 0, 0) !important;
+    border: 2px solid white !important;
+    border-radius: 2px; /* Rounds the corners */
+}
+.alert-success{
+    color: black !important; 
+    background-color: rgb(198, 253, 232) !important;
+}
+.alert-danger{
+    color: rgb(255, 255, 255) !important; 
+    background-color: rgb(249, 119, 132) !important;
+}
+.buttonL {
+    color: #fffdfd !important;
+    background-color: #00BFFF !important;
+    border-radius: 15px !important;
+    margin-right: 10px; /* Adjust the value as needed */
+} 
+/* map */
+
+#map {
+    height: 400px; /* Adjust as needed */
+    width: 100%;   /* Adjust as needed */
+}
